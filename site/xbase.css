@@ -1,0 +1,126 @@
+:root {
+    --main: #009b6f;
+    /*color*/
+    --sub: #efefef;
+    /*color*/
+    --text-main: #fff;
+    /*color*/
+    --color1: #ed879d;
+    --color2: #ba0728;
+    --color3: #fff;
+    --margin: 90px;
+    --grid-height: 130px;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+img {
+    transition: 1s ease;
+}
+
+#hero {
+    background: url(https://images.pexels.com/photos/1083822/pexels-photo-1083822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) 100% / cover fixed;
+}
+/* https://svgshare.com/i/AwQ.svg */
+#name {
+    transition: .5s ease;
+    letter-spacing: .1em;
+    padding: 10px 60px 10px 60px;
+    -webkit-mask-image: url('../media/clean.svg');
+    -webkit-mask-repeat: no-repeat; 
+    -webkit-mask-position: center;
+    -webkit-mask-size: 50%;
+}
+
+.size-grid {
+    border: 1px solid;
+    transition: .5s ease;
+}
+
+.size-grid:hover {
+    z-index: 2;
+    background-color: var(--main) !important;
+}
+
+.q {
+    background: url(https://images.pexels.com/photos/10415/pexels-photo-10415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) 100% / cover fixed;
+    filter: blur(3px);
+}
+
+.q:hover {
+    filter: blur(0px);
+}
+
+footer>a>p {
+    -webkit-clip-path: polygon(7% 0, 100% 0, 94% 100%, 0% 100%);
+    clip-path: polygon(7% 0, 100% 0, 93% 100%, 0% 100%);
+    padding: 10px;
+    transition: .3s ease;
+}
+
+footer>a>p:hover {
+    background-color: var(--main);
+}
+
+#w {
+    background: url(https://images.pexels.com/photos/5592/flowers-flower-bokeh.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat 100% / cover;
+}
+
+.a {
+    background-color: rgba(186, 7, 40, 0.8);
+    cursor: pointer;
+}
+
+.a:hover {
+    background: linear-gradient(-45deg, rgba(186, 7, 40, 0.8), rgba(114, 22, 44, .8), rgba(188, 190, 202, .8), rgba(225, 156, 36, .8), rgba(52, 13, 43, .8));
+    background-size: 400% 400%;
+    animation: Gradient 8s ease infinite;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}

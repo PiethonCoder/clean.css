@@ -1,0 +1,140 @@
+<html lang="en">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Clean.css</title>
+    <link rel="stylesheet" href="./clean.css">
+    <link rel="stylesheet" href="./site/xbase.css">
+</head>
+
+<body class="white">
+    <header class="toolbar h10 black">
+        <!-- icon -->
+        <div class="tab left w5 ">
+            <a href="#top"><img class="h80 w80" src="https://svgshare.com/i/AvP.svg" alt="icon"></a>
+        </div>
+        <div class="tab w20 fcolor3">
+            <p>Sections</p>
+            <div class="tab-content black">
+                <div class="w100 h100 flex black fcolor3">
+                    <ul class="list">
+                        <li><a href="#sizes">sizes</a></li>
+                        <li><a href="#buttons">buttons </a></li>
+                        <li><a href="#positions">positions</a></li>
+                        <li><a href="#grids">grids</a></li>
+                        <li><a href="#documentation">documentation</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="top"></div>
+    <div id="hero" class="h100 w100 flex">
+        <div class="black w50 h50 flex">
+            <video class="h100 w100" id="name" loop autoplay muted playsinline>
+                <source src="./media/video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <section class="w100 flex white ">
+        <div class="w65 white">
+            <!-- size section -->
+            <div class="w100 h75 margin-top">
+
+                <h1 class="top fcolor2 cursive" id="sizes">Sizes</h1>
+
+                <div style="background:rgba(0, 155, 111,.2)" class="size-grid h75 w75 top flex margin-top">
+                    <p>h75 w75</p>
+                </div>
+                <div style="background:rgba(0, 155, 111,.4)" class="size-grid h65 w65 top flex margin-top">
+                    <p>h65 w65</p>
+                </div>
+                <div style="background:rgba(0, 155, 111,.6)" class="size-grid h55 w55 top flex margin-top">
+                    <p>h55 w55</p>
+                </div>
+                <div style="background:rgba(0, 155, 111,.8)" class="size-grid h45 w45 top flex margin-top">
+                    <p>h45 w45</p>
+                </div>
+                <div style="background:rgba(0, 155, 111,1)" class="size-grid h35 w35 top  flex margin-top">
+                    <p>h35 w35</p>
+                </div>
+            </div>
+
+            <!-- buttons -->
+            <div class="w100 h75 white flex margin-top">
+
+                <div class="w30 h100 white flex-column">
+
+                    <h1 id="buttons" class="cursive top fcolor2">Buttons</h1>
+
+                    <div id="button" class="button margin-bottom">
+                        <p>Button</p>
+                    </div>
+                    <div id="button-a" class="button-a  margin-bottom ">
+                        <p>Button-a</p>
+                    </div>
+                    <div id="button-b" class="button-b">
+                        <p>Button-b</p>
+                    </div>
+                </div>
+
+                <div class="w70 h100 main"><img id="button-image" src="https://images.pexels.com/photos/943905/pexels-photo-943905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""></div>
+
+            </div>
+    </section>
+
+    <div class="w100 h70 sub flex-column margin-top">
+        <h1 id="positions" class="top fcolor2 cursive">Positions</h1>
+        <div id="w" class="w65 h65 flex-column main">
+            <div class=" h20 w10 top-left a flex fcolor3">
+                <p>top-left</p>
+            </div>
+            <div class="h20 w10 top a flex fcolor3">top </div>
+            <div class="h20 w10 top-right a flex fcolor3">top-right</div>
+            <div class="h20 w10 left a flex fcolor3">left </div>
+            <div class="h20 w10 center a flex fcolor3">center </div>
+            <div class="h20 w10 right a flex fcolor3">right </div>
+            <div class="h20 w10 bottom-left a flex fcolor3">bottom-left</div>
+            <div class="h20 w10 bottom a flex fcolor3">bottom </div>
+            <div class="h20 w10 bottom-right a flex fcolor3">bottom-right</div>
+        </div>
+    </div>
+
+    <section class="flex-column white">
+        <h1 id="grids" class="fcolor2 cursive margin-top ">Grids</h1>
+        <div class="w65 grid8">
+            <div class="fcolor3 col-span2 row-span2 flex q">
+                <p>col-span2<br>row-span2</p>
+            </div>
+            <div class="fcolor3 col-span6 flex q">
+                <p>col-span6</p>
+            </div>
+            <div class="fcolor3 col-span3 row-span2 flex q">
+                <p>col-span3<br>row-span2</p>
+            </div>
+            <div class="fcolor3 col-span3 row-span3 flex q">
+                <p>col-span3<br>row-span3</p>
+            </div>
+            <div class="fcolor3 col-span2 flex q">
+                <p>col-span2</p>
+            </div>
+            <div class="fcolor3 col-span5 flex q">
+                <p>col-span5</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <footer class="w100 h10 bcolor2 flex margin-top">
+        <a href="./doc/index.html">
+            <p id="documentation" class="fcolor3">Documentation</p>
+        </a>
+    </footer>
+
+
+    <script src="./site/main.js"></script>
+</body>
+
+</html>
