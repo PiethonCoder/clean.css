@@ -11,8 +11,8 @@
 <body class="white">
     <header class="toolbar h10 black">
         <!-- icon -->
-        <div class="tab left w5 ">
-            <a href="#top"><img class="h70 w70" src="https://svgshare.com/i/AvP.svg" alt="icon"></a>
+        <div class="tab left w5 h100">
+            <a href="#top" class="w100 h100 flex"><img class="h60 w60" src="https://svgshare.com/i/AvP.svg" alt="icon"></a>
         </div>
         <div class="tab w20 fcolor3">
             <p>Sections</p>
@@ -37,54 +37,60 @@
             </video>
         </div>
     </div>
-    <section class="w100 flex white ">
-        <div class="w65 white">
-            <!-- size section -->
-            <div class="w100 h75 margin100-top">
+	
+	<!-- size section -->
+    <section class="w100 h75 white flex-column">
+        
+        <div class="w65 h100 margin100-top">
 
-                <h1 class="top fcolor2 cursive" id="sizes">Sizes</h1>
+            <h1 class="top fcolor2 cursive" id="sizes">Sizes</h1>
 
-                <div style="background:rgba(0, 155, 111,.2)" class="size-grid h75 w75 top flex margin100-top">
-                    <p>h75 w75</p>
-                </div>
-                <div style="background:rgba(0, 155, 111,.4)" class="size-grid h65 w65 top flex margin100-top">
-                    <p>h65 w65</p>
-                </div>
-                <div style="background:rgba(0, 155, 111,.6)" class="size-grid h55 w55 top flex margin100-top">
-                    <p>h55 w55</p>
-                </div>
-                <div style="background:rgba(0, 155, 111,.8)" class="size-grid h45 w45 top flex margin100-top">
-                    <p>h45 w45</p>
-                </div>
-                <div style="background:rgba(0, 155, 111,1)" class="size-grid h35 w35 top  flex margin100-top">
-                    <p>h35 w35</p>
-                </div>
+            <div style="background:rgba(0, 155, 111,.2)" class="size-grid h75 w75 top flex margin100-top">
+                <p>h75 w75</p>
             </div>
-
-            <!-- buttons -->
-            <div class="w100 h75 white flex margin100-top">
-
-                <div class="w30 h100 white flex-column">
-
-                    <h1 id="buttons" class="cursive top fcolor2">Buttons</h1>
-
-                    <div id="button" class="button margin50-bottom">
-                        <p>Button</p>
-                    </div>
-                    <div id="button-a" class="button-a margin50-bottom">
-                        <p>Button-a</p>
-                    </div>
-                    <div id="button-b" class="button-b">
-                        <p>Button-b</p>
-                    </div>
-                </div>
-
-                <div class="w70 h100 main"><img id="button-image" src="https://images.pexels.com/photos/943905/pexels-photo-943905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""></div>
-
+            <div style="background:rgba(0, 155, 111,.4)" class="size-grid h65 w65 top flex margin100-top">
+                <p>h65 w65</p>
             </div>
+            <div style="background:rgba(0, 155, 111,.6)" class="size-grid h55 w55 top flex margin100-top">
+                <p>h55 w55</p>
+            </div>
+            <div style="background:rgba(0, 155, 111,.8)" class="size-grid h45 w45 top flex margin100-top">
+                <p>h45 w45</p>
+            </div>
+            <div style="background:rgba(0, 155, 111,1)" class="size-grid h35 w35 top  flex margin100-top">
+                <p>h35 w35</p>
+            </div>
+        </div>
+
     </section>
 
-    <div class="w100 h70 sub flex-column margin100-top">
+	<!-- button section -->
+    <section class="w100 h75 white flex-column">
+
+        <div class="w65 h75 white flex margin100-top">
+
+            <div class="w30 h100 white flex-column">
+
+                <h1 id="buttons" class="cursive top fcolor2">Buttons</h1>
+
+                <div id="button" class="button margin50-bottom">
+                    <p>Button</p>
+                </div>
+                <div id="button-a" class="button-a margin50-bottom">
+                    <p>Button-a</p>
+                </div>
+                <div id="button-b" class="button-b">
+                    <p>Button-b</p>
+                </div>
+            </div>
+
+            <div class="w70 h100 main"><img id="button-image" src="https://images.pexels.com/photos/943905/pexels-photo-943905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""></div>
+
+        </div>
+    </section>
+	
+	<!--position section-->
+    <section class="w100 h70 sub flex-column margin100-top">
         <h1 id="positions" class="top fcolor2 cursive">Positions</h1>
         <div id="w" class="w65 h65 flex-column main">
             <div class=" h20 w10 top-left a flex fcolor3">
@@ -99,8 +105,9 @@
             <div class="h20 w10 bottom a flex fcolor3">bottom </div>
             <div class="h20 w10 bottom-right a flex fcolor3">bottom-right</div>
         </div>
-    </div>
-
+    </section>
+	
+	<!--grid section-->
     <section class="flex-column white">
         <h1 id="grids" class="fcolor2 cursive margin100-top ">Grids</h1>
         <div class="w65 grid8">
@@ -123,7 +130,7 @@
                 <p>col-span5</p>
             </div>
         </div>
-        </div>
+
     </section>
 
 
