@@ -742,7 +742,7 @@ img {
     color: var(--text-sub);
     background-color: #eee;
     background-color: var(--sub);
-    padding: 5 20 5 20;
+    padding: 5px 20px 5px 20px;
     cursor: pointer;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -778,7 +778,7 @@ img {
     color: var(--text-main);
     background-color: #0d586d;
     background-color: var(--main);
-    padding: 5 20 5 20;
+    padding: 5px 20px 5px 20px;
     cursor: pointer;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -814,7 +814,7 @@ img {
     color: var(--text-sub);
     background-color: #0d586d;
     background-color: var(--main);
-    padding: 5 20 5 20;
+    padding: 5px 20px 5px 20px;
     cursor: pointer;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -853,7 +853,7 @@ img {
     color: black;
     color: var(--text-main);
     background-color: transparent;
-    padding: 5 20 5 20;
+    padding: 5px 20px 5px 20px;
     cursor: pointer;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -885,7 +885,7 @@ img {
     color: #fff;
     color: var(--text-main);
     background-color: transparent;
-    padding: 5 20 5 20;
+    padding: 5px 20px 5px 20px;
     cursor: pointer;
     display: -webkit-box;
     display: -ms-flexbox;
